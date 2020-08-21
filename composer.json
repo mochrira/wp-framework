@@ -1,0 +1,14 @@
+{
+    "name": "mochrira/wp-framework",
+    "authors": [
+        {
+            "name": "mochrira",
+            "email": "mochrira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WpFramework\\": "./dist"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+require('wp-sass').setup('./src', './dist');
