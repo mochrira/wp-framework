@@ -30,7 +30,7 @@ class Loader {
         });
 
         foreach(self::$plugins as $plugin) {
-            require_once($plugin['file']);
+            require_once(self::$pluginDir.$plugin['file']);
         }
     }
 
