@@ -13,7 +13,7 @@ class Loader {
         $plugins = scandir(self::$pluginDir);
         foreach($plugins as $name) {
             if(!in_array($name, array('.', '..'))) {
-                $file = $pluginDir.'/'.$name.'/'.$name.'.php';
+                $file = self::$pluginDir.'/'.$name.'/'.$name.'.php';
                 $data = get_file_data($file, array('Plugin Name', 'Description', 'Priority'));
                 self::$plugins[] = [
                     'name' => $name,

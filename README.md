@@ -4,6 +4,12 @@ WP Framework adalah sebuah framework yang dibuat untuk mempermudah proses pengem
 
 ## Instalasi wp-framework
 
+Terlebih dahulu anda harus menginstall [composer](https://getcomposer.org/). Buat direktori project baru anda, lalu jalankan perintah berikut
+
+```
+$ composer init
+```
+
 Tambahkan baris berikut sebelum require pada `composer.json` anda.
 
 ```
@@ -29,7 +35,7 @@ Tambahkan baris berikut sebelum require pada `composer.json` anda.
 Lalu jalankan perintah berikut
 
 ```
-composer install
+composer require mochrira/wp-framework
 ```
 
 ## Instalasi wp-sass
