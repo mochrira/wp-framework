@@ -7,6 +7,9 @@
         }
     ],
     "autoload": {
+        "files": [
+            "./dist/Helper.php"
+        ],
         "psr-4": {
             "WpFramework\\": "./dist"
         }
