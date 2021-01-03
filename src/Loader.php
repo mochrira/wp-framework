@@ -4,7 +4,7 @@ namespace WpFramework;
 
 class Loader {
 
-    private static $pluginDir;
+    public static $pluginDir;
     private static $plugins;
     private static $defaultPriority;
 
