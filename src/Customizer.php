@@ -2,6 +2,8 @@
 
 namespace WpFramework;
 
+if(!class_exists('\\WpFramework\\Customizer')) : 
+
 class Customizer {
 
     public static function isCustomizer() {
@@ -11,3 +13,4 @@ class Customizer {
 
 }
 
+endif;

@@ -2,6 +2,8 @@
 
 namespace WpFramework;
 
+if(!class_exists('\\WpFramework\\Loader')) :
+
 class Loader {
 
     public static $pluginDir;
@@ -35,3 +37,5 @@ class Loader {
     }
 
 }
+
+endif;

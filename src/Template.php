@@ -2,6 +2,8 @@
 
 namespace WpFramework;
 
+if(!class_exists('\\WpFramework\\Template')) : 
+
 class Template {
 
     public static function getPartContents($slug, $name = null, $args = []) {
@@ -13,3 +15,5 @@ class Template {
     }
 
 }
+
+endif;

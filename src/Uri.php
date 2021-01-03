@@ -2,6 +2,8 @@
 
 namespace WpFramework;
 
+if(!class_exists('\\WpFramework\\Uri')) :
+
 class Uri {
 
     public static function pluginUrl($path = '') {
@@ -9,3 +11,5 @@ class Uri {
     }
 
 }
+
+endif;
