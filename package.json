@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "wp-sass": "git+https://repository.wajek.id/mochrira/wp-sass.git"
+    "wp-sass": "git+https://github.com/mochrira/wp-sass.git"
   }
 }
